@@ -9,13 +9,14 @@ public class AppTabuada {
 		
 		FrameTabuada tela = new FrameTabuada();
 		tela.titulo = "Tabuada";
-		tela.altura = 600;
-		tela.largura= 800;
+		tela.altura = 700;
+		tela.largura= 450;
+		tela.criarTela();
 		
 		Usuario tabuada = new Usuario();
-		tabuada.multiplicador = 101;
-		tabuada.maxMulti = 10;
-		tabuada.minMulti = 5;
+		tabuada.multiplicador = 2 ;
+		tabuada.maxMulti = 13;
+		tabuada.minMulti = 12;
 		
 		String[] resultado = tabuada.getTabuada();
 		
