@@ -1,6 +1,6 @@
 package br.senai.sp.jandira.model;
 
-public class Usuario {
+public class Tabuada {
 	
 	// Atributos
 	public int multiplicador;
